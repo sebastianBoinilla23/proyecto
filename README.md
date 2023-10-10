@@ -71,73 +71,8 @@ Para ejecutar el código de manera sencilla, se emplea CLion, un editor de texto
 
     return 0;
 }
-Otro fragmento:
-class Pasajero {                               ///Clase Pasajero - Usuario
-public:
-    std::vector<Pasajero> pasajeros;
-    std::string Nombre;
-    std::string Apellido;
-    std::string Nacionalidad;
-    std::string CantidadM;
-    std::string EstSalud;
-    std::string Cedula;
-    std::string Genero;
-    std::string Direccion;
-    std::string NumeroTel;
-    std::string Correo;
-    vuelo vueloComprado;
 
-    Pasajero(){                              ///Constructor Pasajeros
-        this -> Nombre = "";
-        this -> Apellido = "";
-        this -> Nacionalidad = "";
-        this -> CantidadM = "";
-        this -> Cedula = "";
-        this -> Genero = "";
-        this -> Direccion = "";
-        this -> NumeroTel = "";
-        this -> Correo = "";
-
-
-    }
-
-    void AgregarPasajero (std::string Nombre, std::string Apellido, std::string Nacionalidad, std::string CantidadM, std::string EstSalud, std::string Cedula, std::string Genero,std::string Direccion,std::string NumeroTel,std::string Correo){
-        this ->Nombre = Nombre;
-        this ->Apellido = Apellido;
-        this ->Nacionalidad = Nacionalidad;             ///Metodo Agregar Pasajeros
-        this ->CantidadM = CantidadM;
-        this ->Cedula = Cedula;
-        this ->Genero = Genero;
-        this ->Direccion = Direccion;
-        this ->NumeroTel = NumeroTel;
-        this ->Correo = Correo;
-
-
-    }
-
-    void comprarVuelo(vuelo vuelo1){
-        this->vueloComprado = vuelo1;
-    }
-
-    void MostrarPasajero(){                               ///Metodo Mostrar Pasajeros
-        std::cout << "Nombre: " << this->Nombre << "\n";
-        std::cout << "Apellido: " << this->Apellido << "\n";
-        std::cout << "Nacionalidad: " << this->Nacionalidad << "\n";
-        std::cout << "Cantidad maletas: " << this->CantidadM << "\n";
-        std::cout << "Estado de salud: " << this->EstSalud << "\n";
-        std::cout << "Cedula: " << this->Cedula << "\n";
-        std::cout << "Genero: " << this->Genero << "\n";
-        std::cout << "Direccion de vivienda: " << this->Direccion << "\n";
-        std::cout << "Numero telefonico: " << this->NumeroTel << "\n";
-        std::cout << "Correo: " << this->Correo << "\n";
-        std::cout << "Vuelo comprado:\n";
-        this->vueloComprado.mostrarvuelo2();
-    }
-
-};
-
-
-6. Referencias
+5. Referencias
 Redaccion Trade News. (2023, August 25). Cuáles fueron los 10 aeropuertos con más movimiento de América latina y el Caribe en 2022 - Trade News. Trade News. https://tradenews.com.ar/cuales-fueron-los-10-aeropuertos-con-mas-movimiento-de-america-latina-y-el-caribe-en-2022/#:~:text=A%20la%20cabeza%20del%20ranking,seguida%20por%20la%20terminal%20colombiana.
 
 ‌
