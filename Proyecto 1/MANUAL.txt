@@ -1,0 +1,26 @@
+------------------------MANUAL DE USUARIO--------------------------
+
+IMPORTANTE** +Como usar el el programa al digitar datos.
+	
+	- Para poder digitar datos de forma correcta debera ingresar tipos de datos enteros y strings no admite otro tipo de dato
+	no usar espacios ya que esto genera problemas en la funcionalidad del codigo, tambien en las zonas de selecciones solo se     	podra digitar el numero al cual desea hacer dicha seleccion.
+
+Ya explicado esto usuario procedere a explicar su manejo tendremos dichos menus.
+
+1. MENU PRINCIPAL: En este menu tendremos acceso a tres de nuestras opciones principales la cuales son:
+	-AERONAVES
+	-VUELOS
+	-PASAJEROS
+	ya entorno a lo que usted usuario quiera realizar escogera una de estas opciones las cuales lo lleveran a un menu
+	especializado 
+
+2. MENU AERONAVES: Le permite agregar nuevas aeronaves y su tipo ya como lo indica el proyecto (Aviones, Helicopteros, Jet)
+		tambien mostar las naves ingresadas en el sistema
+
+3. MENU VUELOS: Permite la creacion de nuevos vuelo con su origen y destino y a cual aeronave se asigna cuando cree una aeronave
+		tiene que anotar el id generado a esa aeronave para poder crear el vuelo, ya tambien permite mostrarnos los vuelos
+
+4. MENU PASAJEROS: Pide datos basicos del pasajero para la creacion de este y para que el usuario pueda comprar el vuelo que desee 		respecto al id generado en cada vuelo donde puede ver con anterioridad su origen y destino
+
+RECUERDE DIGITAR LOS DATOS COMO SE LE INDICA AL INCIO DE ESTE MENU.
+YA CADA VEZ QUE USTED DIGITE UN OPCION PODRA USAR ESTE CODIGO Y LE MOSTRARA LO INGRESADO AUTOMATICAMENTE 
